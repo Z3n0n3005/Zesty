@@ -5,5 +5,5 @@ My personal project of a web application. Since this is a lelw project, the aim 
 - Must include an interactive link to another page  
 - Header with links  
 - Some algorithm drawing stuff for stress test  
-
+- Connect to a DB for exp  
 ## Design
