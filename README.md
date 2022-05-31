@@ -7,4 +7,8 @@ My personal project of a web application. Since this is a lelw project, the aim 
 - Some algorithm drawing stuff for stress test  
 - Connect to a DB for exp  
 ## Design
-- TBD  
+- Font: Sans Serif, Monospace
+- Font size:  
+    - Heading: 3.125em
+    - Body title: 38px
+    - Body text: 16px
