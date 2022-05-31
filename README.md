@@ -12,3 +12,6 @@ My personal project of a web application. Since this is a lelw project, the aim 
     - Heading: 3.125em
     - Body title: 38px
     - Body text: 16px
+
+- Web page plan sketch:  
+![Alt text](https://raw.githubusercontent.com/Z3n0n3005/Personal-Web-App/main/general-information/webpage_plan.png?token=GHSAT0AAAAAABTLYANIISSJZS4ZGEIOACLAYUVSUAQ "Web page plan")
