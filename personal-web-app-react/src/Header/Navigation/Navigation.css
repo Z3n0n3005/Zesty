@@ -14,4 +14,20 @@
   display: inline-block;
   margin-right: 1.6em;
 }
+.NavList a{
+  color: #000000;
+  border-bottom: 0px;
+  text-decoration: none;
+  
+}
+
+.NavList a:link{
+  color: #000000;
+  border-bottom: 0px;
+}
+
+.NavList a:visited{
+  color: #000000;
+  border-bottom: 0px;
+}
   
