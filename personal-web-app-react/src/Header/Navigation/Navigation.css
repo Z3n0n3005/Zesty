@@ -1,0 +1,17 @@
+.Navigation {
+  text-align: left;
+  border-bottom: 1px solid #000000;
+  padding: 1.6em 2.5%;
+  height: 10%;
+  font-size: 1.25em;
+}
+.NavList{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.NavList li{
+  display: inline-block;
+  margin-right: 1.6em;
+}
+  
