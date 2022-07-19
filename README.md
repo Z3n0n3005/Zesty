@@ -6,6 +6,9 @@ My personal project of a web application. Since this is a lelw project, the aim 
 - Header with links  
 - Some algorithm drawing stuff for stress test  
 - Connect to a DB for exp  
+- Web version of obsidian
+- Markdown file parser
+  - Game review
 ## Design
 - Font: Sans Serif, Monospace
 - Font size:  
