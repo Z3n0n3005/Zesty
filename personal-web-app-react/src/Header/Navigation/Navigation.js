@@ -1,13 +1,19 @@
 import  './Navigation.css';
+import {Link} from 'react-router-dom';
 
 function Navigation (){
     return (
-        <nav className='Navigation'>
-            <ul className='NavList'>
-                <li><a href="https://www.w3schools.com">w3</a></li>
-                <li><a href="https://www.youtube.com/">youtube</a></li>
-            </ul>
-        </nav>
+        <div>
+            <nav className='Navigation'>
+                <ul className='NavList'>
+                    <li><Link to="/home">🍋</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    {/* <li></li> */}
+                </ul>
+                {/* {" "} */}
+                
+            </nav>
+        </div>
     )
 }
 
