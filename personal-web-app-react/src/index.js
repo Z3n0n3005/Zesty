@@ -8,6 +8,7 @@ import About from './Body/Content/About';
 import Home from './Body/Content/Home';
 import Body from './Body/Body';
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,6 +22,7 @@ root.render(
             <Route path="about" element={<About/>}/>
           </Route>
         </Routes>
+        <Footer/>
       </BrowserRouter>
   </React.StrictMode>
 );
