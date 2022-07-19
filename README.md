@@ -18,3 +18,6 @@ My personal project of a web application. Since this is a lelw project, the aim 
 
 - Web page plan sketch:  
 ![Alt text](https://raw.githubusercontent.com/Z3n0n3005/Personal-Web-App/main/general-information/webpage_plan.png?token=GHSAT0AAAAAABTLYANIISSJZS4ZGEIOACLAYUVSUAQ "Web page plan")
+## Future purposes
+- This might include archival of projects:  
+    - Simulation
