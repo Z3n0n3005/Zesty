@@ -1,17 +1,83 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: monospace,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
-  overflow: scroll;
+  /* height: 100%; */
+  /* overflow: scroll; */
   background-color: #181818;
-  color: ghostwhite;
+}
+
+nav{
+  padding: 3vh;
+  height: 10%;
+}
+
+header{
+  padding: 8vh;
+  text-align: center;
+  border-bottom: 1px solid #202020;
+  background-color: #202020;
+}
+
+main{
+  padding: 2em 2em 2em 2em;
+}
+
+footer{
+  padding: 8vh;
+  background-color:gold;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+p{
+  color: ghostwhite;
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: ghostwhite;
+  font-size: 3rem;
+
+}
+
+h2 {
+  color: ghostwhite;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: ghostwhite;
+  font-size: 2rem;
+}
+
+h4 {
+  color: ghostwhite;
+
+}
+
+h5 {
+  color: ghostwhite;
+
+}
+
+ul {
+  color: ghostwhite;
+}
+
+ol{
+  color: ghostwhite;
+}
+
+.Link {
+  color: ghostwhite;
+  border-bottom: 0px;
 }

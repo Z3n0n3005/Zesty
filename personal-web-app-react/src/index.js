@@ -4,10 +4,11 @@ import './index.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
-import About from './Body/Content/About';
-import Home from './Body/Content/Home';
-import Body from './Body/Body';
+import About from './Main/Content/About';
+import Home from './Main/Content/Home';
+import Navigation from './Navigation/Navigation';
 import Header from './Header/Header';
+import Main from './Main/Main';
 import Footer from './Footer/Footer';
 
 
@@ -15,9 +16,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <BrowserRouter>
+        <Navigation/>
         <Header/>
         <Routes>
-          <Route path="/" element={<Body/>}>
+          <Route path="/" element={<Main/>}>
             <Route path="home" element={<Home/>}/>
             <Route path="about" element={<About/>}/>
           </Route>

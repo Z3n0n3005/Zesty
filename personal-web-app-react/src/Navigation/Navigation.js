@@ -8,9 +8,7 @@ function Navigation (){
                 <ul className='NavList'>
                     <li><Link to="/home">🍋</Link></li>
                     <li><Link to="/about">About</Link></li>
-                    {/* <li></li> */}
                 </ul>
-                {/* {" "} */}
                 
             </nav>
         </div>

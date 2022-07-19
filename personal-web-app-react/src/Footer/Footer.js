@@ -2,11 +2,11 @@ import './Footer.css';
 
 const Footer =() => {
     return (
-        <div>
+        <footer>
             <h1>
                 This is a footer :v
             </h1>
-        </div>
+        </footer>
     )
 }
 
