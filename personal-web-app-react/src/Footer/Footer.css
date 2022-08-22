@@ -10,6 +10,12 @@ Footer ul{
     text-align: right;
 }
 
+Footer li{
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+}
+
 Footer a{
     color: #181818;
     font-size: 1.25rem;
@@ -17,21 +23,8 @@ Footer a{
     text-decoration: none;
 }
 
-Footer a:hover{
-    /* text-decoration: underline; */
-    color: gray;
+.icon {
+    width: 30px;
+    height: 30px;
 }
 
-Footer a:after{
-    content:"";
-    position: absolute;
-    background-color: #181818;
-    height: 3px;
-    width: 100%;
-    bottom: -10px;
-    transition: 0.2s;
-}
-
-Footer a:hover:after{
-    width: 100%;
-}

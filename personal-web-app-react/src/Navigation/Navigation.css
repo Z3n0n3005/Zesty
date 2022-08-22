@@ -7,6 +7,8 @@
   /* This is for same line list */
   display: inline-block;
   margin-right: 1.6rem;
+  position: relative;
+
 }
 
 .NavList a{
@@ -19,15 +21,19 @@
   color: gold;
 }
 
-.slow-underline::after{
+.slow-underline:after{
   content:"";
   position: absolute;
   background-color: gold;
-  height: 3px;
-  width: 100%;
+  height: 2px;
+  width: 0%;
   left: 0;
-  bottom: -10px;
+  bottom: -5px;
   transition: 0.2s;
+}
+
+.slow-underline:hover:after{
+  width: 100%;
 }
 
   

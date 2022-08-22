@@ -5,8 +5,8 @@ const Footer =() => {
         <footer>
             <h3>Contacts</h3>
             <ul>
-                <li><a href='https://github.com/Z3n0n3005'>GitHub</a></li>
-                <li><a href='https://www.linkedin.com/in/luong-tri-vy/'>LinkedIn</a></li>
+                <li><a href='https://github.com/Z3n0n3005'><img className='icon' src='github.png' alt='GitHub'/></a></li>
+                <li><a href='https://www.linkedin.com/in/luong-tri-vy/'><img className='icon' src="linkedin.png" alt='LinkedIn'/></a></li>
             </ul>
         </footer>
     )

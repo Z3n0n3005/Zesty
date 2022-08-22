@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import About from './Main/Content/About';
 import Home from './Main/Content/Home';
+import Portfolio from './Main/Content/Portfolio';
 import Navigation from './Navigation/Navigation';
 import Header from './Header/Header';
 import Main from './Main/Main';
@@ -23,6 +24,7 @@ root.render(
           <Route path="*" element={<Navigate to="/home" replace/>}/>
           <Route path="/home" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
+          <Route path="/portfolio" element={<Portfolio/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

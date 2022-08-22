@@ -1,18 +1,55 @@
-import './Portfolio.css';
+// import './Portfolio.css';
 
 const Portfolio = () => {
     return (
         <article className = "Portfolio">
-            
-            <h2>About me</h2>
-            <p>I'm currently a college student and this is my landing page. </p>
+            <h1>Lương Trí Vỹ</h1>
+            <h2>Objective</h2>
+            <ul>
+                <li>Obtain real-world working experience in the Software Development Department.</li>
+                <li>Seeking entry level position in Software Development to utilize my skills and learn more about the technology in the process.</li>
+            </ul>
     
-            <h2>What am I doing ?</h2>
-            <p>This is a simple project that was done during the summer in order to be used as a hub for future projects.</p>
+            <h2>Education</h2>
+            <ul>
+                <li>International University VNU HCMC
+                    <ul>
+                        <li>Bachelor Degree in Computer Science</li>
+                        <li>(expected) 09/2020 - 09/2024 </li>
+                    </ul>
+                </li>
+            </ul>
+            <p></p>
             
-            <h2>What is the purpose of this site?</h2>
-            <p>This site was made for the purpose of archiving and showcasing projects created as a hobbies in a web format.</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>Technical Skills
+                    <ul>
+                        <li>OOP, Basic knowledge of Data Structure, Design Pattern, Algorithm</li>
+                    </ul>
+                </li>
+                <li>Programming Languages
+                    <ul>
+                        <li>C++, Java, Python</li>
+                    </ul>
+                </li>
+                <li>Soft Skills
+                    <ul>
+                        <li>Self Learning, Problem Solving</li>
+                    </ul>
+                </li>
+                <li>Language
+                    <ul>
+                        <li>English (IELTS 8.0)</li>
+                    </ul>
+                </li>
+            </ul>
             
+            <h2>Projects</h2>
+            <ul>
+                <li><a className="normal_link" href="https://github.com/zef1611/Bomberman-OOP-project.git">Bomberman Clone</a>: Made by utilizing OOP concepts and Java.</li>
+                <li><a className="normal_link" href="https://github.com/Z3n0n3005/Zesty.git">Zesty</a>: An online portfolio made using JavaScript and React as Front-end and utilizing Vercel to deploy the website</li>
+            </ul>
         </article>
     )
 }   

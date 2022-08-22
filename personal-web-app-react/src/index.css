@@ -1,3 +1,4 @@
+
 body {
   margin: 0 0;
   padding: 0 0;
@@ -25,13 +26,13 @@ header{
 }
 
 main{
-  /* padding: 10vh 2rem; */
   padding: 0px;
 }
 
 footer{
-  padding: 8vh;
+  /* padding: 8vh; */
   background-color:gold;
+  padding: 8vh 12vw 8vh 12vw;
 }
 
 code {
@@ -43,6 +44,8 @@ code {
 p{
   color: ghostwhite;
   font-size: 1.5rem;
+  margin-bottom: 10px;
+  line-height: 6vh;
 }
 
 h1 {
@@ -79,10 +82,29 @@ ol{
   color: ghostwhite;
 }
 
+li{
+  color: ghostwhite;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  line-height: 6vh;
+}
+
 .Link {
   color: ghostwhite;
   border-bottom: 0px;
 }
 article {
+  margin: 0 10vw 0 10vw;
   padding: 10vh 2rem;
+}
+
+/* Some common classes to use */
+.bold_text{
+  font-weight: bold;
+}
+.normal_link{
+  color:gold;
+}
+.center_text{
+  text-align: center;
 }
