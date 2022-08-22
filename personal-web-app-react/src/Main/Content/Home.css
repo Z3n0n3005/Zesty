@@ -9,4 +9,10 @@
 .Timeline{
     text-align: center;
 }
-
+.heading_homepage{
+    margin-bottom: 1px;
+}
+.heading_subtext{
+    margin-top: 0;
+    color: gray;
+}
