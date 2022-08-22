@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {BrowserRouter, Navigate, Route, Routes} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 import About from './Main/Content/About';
@@ -18,11 +18,11 @@ root.render(
       <BrowserRouter>
         <Navigation/>
         <Header/>
+        <Main/>
         <Routes>
-          <Route path="/" element={<Main/>}>
-            <Route path="home" element={<Home/>}/>
-            <Route path="about" element={<About/>}/>
-          </Route>
+          <Route path="*" element={<Navigate to="/home" replace/>}/>
+          <Route path="/home" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

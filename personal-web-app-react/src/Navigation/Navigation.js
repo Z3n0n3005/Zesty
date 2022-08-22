@@ -6,8 +6,9 @@ function Navigation (){
         <div>
             <nav className='Navigation'>
                 <ul className='NavList'>
-                    <li><Link to="/home">🍋</Link></li>
-                    <li><Link to="/about">About</Link></li>
+                    <li className='slow-underline'><Link to="/home">🍋</Link></li>
+                    <li className='slow-underline'><Link to="/about">About</Link></li>
+                    <li className='slow-underline'><Link to="/portfolio">Portfolio</Link></li>
                 </ul>
                 
             </nav>
