@@ -3,6 +3,7 @@ My personal project of a web application. Since this is a lelw project, the aim 
 
 ## Application Requirement
 - Must include an interactive link to another page  
+- Portfolio
 - Header with links  
 - Some algorithm drawing stuff for stress test  
 - Connect to a DB for exp  
