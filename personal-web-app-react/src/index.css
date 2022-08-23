@@ -14,7 +14,7 @@ body {
 
 nav{
   padding: 3vh;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   height: 10%;
 }
 
@@ -95,7 +95,7 @@ li{
 }
 article {
   margin: 0 10vw 0 10vw;
-  padding: 10vh 2rem;
+  padding: 10vh 2em;
 }
 
 /* Some common classes to use */
@@ -107,4 +107,21 @@ article {
 }
 .center_text{
   text-align: center;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.h2_divider::after {
+  content: "";
+  background-color: ghostwhite;
+  position: absolute;
+  width: 100%;
+  display: inline;
+  bottom: -30px;
+  height: 1px;
+}
+/* for creating responsive pseudo elements */
+.relative_div{
+  position: relative;
 }

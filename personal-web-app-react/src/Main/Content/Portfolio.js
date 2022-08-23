@@ -4,13 +4,19 @@ const Portfolio = () => {
     return (
         <article className = "Portfolio">
             <h1>Lương Trí Vỹ</h1>
-            <h2>Objective</h2>
+            <div className="h2_divider relative_div">
+                <h2>Objective</h2>
+            </div>
+
             <ul>
                 <li>Obtain real-world working experience in the Software Development Department.</li>
                 <li>Seeking entry level position in Software Development to utilize my skills and learn more about the technology in the process.</li>
             </ul>
-    
-            <h2>Education</h2>
+            
+            <div className="h2_divider relative_div">
+                <h2>Education</h2>
+            </div>
+
             <ul>
                 <li>International University VNU HCMC
                     <ul>
@@ -20,8 +26,10 @@ const Portfolio = () => {
                 </li>
             </ul>
             <p></p>
-            
-            <h2>Skills</h2>
+
+            <div className="h2_divider relative_div">
+                <h2>Skills</h2>
+            </div>
             <ul>
                 <li>Technical Skills
                     <ul>
@@ -44,8 +52,10 @@ const Portfolio = () => {
                     </ul>
                 </li>
             </ul>
-            
-            <h2>Projects</h2>
+
+            <div className="h2_divider relative_div">
+                <h2>Projects</h2>
+            </div>
             <ul>
                 <li><a className="normal_link" href="https://github.com/zef1611/Bomberman-OOP-project.git">Bomberman Clone</a>: Made by utilizing OOP concepts and Java.</li>
                 <li><a className="normal_link" href="https://github.com/Z3n0n3005/Zesty.git">Zesty</a>: An online portfolio made using JavaScript and React as Front-end and utilizing Vercel to deploy the website</li>

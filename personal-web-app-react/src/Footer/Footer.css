@@ -11,6 +11,7 @@ Footer ul{
 }
 
 Footer li{
+    color: #181818;
     position: relative;
     display: inline-block;
     margin-left: 15px;
@@ -23,8 +24,5 @@ Footer a{
     text-decoration: none;
 }
 
-.icon {
-    width: 30px;
-    height: 30px;
-}
+
 
