@@ -48,7 +48,7 @@ const Portfolio = () => {
             <h2>Projects</h2>
             <ul>
                 <li><a className="normal_link" href="https://github.com/zef1611/Bomberman-OOP-project.git">Bomberman Clone</a>: Made by utilizing OOP concepts and Java.</li>
-                <li><a className="normal_link" href="https://github.com/Z3n0n3005/Zesty.git">Zesty</a>: An online portfolio made using JavaScript and React as Front-end and utilizing Vercel to deploy the website</li>
+                <li><a className="normal_link" href="https://github.com/Z3n0n3005/Zesty.git">Zesty</a>: An online portfolio made using JavaScript and React as Front-end and utilizing Vercel to deploy the website.</li>
             </ul>
         </article>
     )
