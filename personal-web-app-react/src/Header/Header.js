@@ -1,9 +1,9 @@
 import './Header.css';
 
-function Header(){
+function Header(header){
     return(
         <header className='Header'>
-            <h1 className='Header-title'>Zesty 🍋</h1>
+            <h1 className='Header-title'>{header.name}</h1>
         </header>
     )
 }

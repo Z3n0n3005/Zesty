@@ -1,8 +1,8 @@
 const Bomberman = () => {
     return (
-        <div>
-            
-        </div>
+        <article>
+            <h2>Bomberman</h2>
+        </article>
     )
 }
 

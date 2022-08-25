@@ -12,19 +12,24 @@ import Header from './Header/Header';
 import Main from './Main/Main';
 import Footer from './Footer/Footer';
 
+import Bomberman from './Main/Content/Projects/Bomberman';
+import Zesty from './Main/Content/Projects/Zesty';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <BrowserRouter>
         <Navigation/>
-        <Header/>
+        <Header name='Zesty 🍋'/>
         <Main/>
         <Routes>
           <Route path="*" element={<Navigate to="/home" replace/>}/>
           <Route path="/home" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
+          <Route path="/home/bomberman" element={<Bomberman/>}/>
+          <Route path="/home/zesty" element={<Zesty/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
