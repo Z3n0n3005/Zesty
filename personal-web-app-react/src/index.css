@@ -125,6 +125,11 @@ article {
 .relative_div{
   position: relative;
 }
+.normal_image{
+  height:auto;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
 .link_slow_underline{
 
 }
