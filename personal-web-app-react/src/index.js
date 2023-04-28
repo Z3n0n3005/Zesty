@@ -14,6 +14,7 @@ import Footer from './Footer/Footer';
 
 import Bomberman from './Main/Content/Projects/Bomberman';
 import Zesty from './Main/Content/Projects/Zesty';
+import Aramoolah from './Main/Content/Projects/Aramoolah'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,6 +31,7 @@ root.render(
           <Route path="/portfolio" element={<Portfolio/>}/>
           <Route path="/home/bomberman" element={<Bomberman/>}/>
           <Route path="/home/zesty" element={<Zesty/>}/>
+          <Route path="/home/aramoolah" element={<Aramoolah/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

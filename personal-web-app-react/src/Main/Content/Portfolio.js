@@ -33,7 +33,8 @@ const Portfolio = () => {
             <ul>
                 <li>Technical Skills
                     <ul>
-                        <li>OOP, Basic knowledge of Data Structure, Design Pattern, Algorithm</li>
+                        <li>OOP, Data Structure & Algorithm, Design Pattern</li>
+                        <li>Android</li>
                     </ul>
                 </li>
                 <li>Programming Languages
@@ -57,6 +58,7 @@ const Portfolio = () => {
                 <h2>Projects</h2>
             </div>
             <ul>
+                <li><a className="normal_link" href="https://github.com/Z3n0n3005/Aramoolah.git">Aramoolah</a>: A personal finance Android application. Made using Java and MVVM architectural design pattern.</li>
                 <li><a className="normal_link" href="https://github.com/zef1611/Bomberman-OOP-project.git">Bomberman Clone</a>: Made by utilizing OOP concepts and Java.</li>
                 <li><a className="normal_link" href="https://github.com/Z3n0n3005/Zesty.git">Zesty</a>: An online portfolio made using JavaScript and React as Front-end and utilizing Vercel to deploy the website.</li>
             </ul>
